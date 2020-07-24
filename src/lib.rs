@@ -11,7 +11,7 @@ mod encoding;
 /// All the errors that can be encountered while encoding/decoding JWTs
 pub mod errors;
 mod header;
-mod pem;
+pub mod pem;
 mod serialization;
 mod validation;
 

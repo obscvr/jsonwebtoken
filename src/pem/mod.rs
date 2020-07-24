@@ -1,1 +1,1 @@
-pub(crate) mod decoder;
+pub mod decoder;

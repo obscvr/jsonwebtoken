@@ -40,7 +40,7 @@ enum Classification {
 /// PKCS#1: https://tools.ietf.org/html/rfc8017
 /// PKCS#8: https://tools.ietf.org/html/rfc5958
 #[derive(Debug)]
-pub(crate) struct PemEncodedKey {
+pub struct PemEncodedKey {
     content: Vec<u8>,
     asn1: Vec<simple_asn1::ASN1Block>,
     pem_type: PemType,
